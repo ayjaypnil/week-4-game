@@ -7,8 +7,6 @@ var numPink = 0;
 var totalNumber = 0;
 
 
-// $("#targetNumber").text(numTarget);
-
 
    $("input").on("click", function () {
         numTarget = Math.floor(Math.random() * 101);
@@ -28,6 +26,7 @@ var totalNumber = 0;
 
         numPink = 0;
         $("#pinkNumber").text(numPink);
+
    });
 
     $("#redGem").on("click", function () {
@@ -66,4 +65,10 @@ var totalNumber = 0;
         $("#totalNumber").text(totalNumber);
     });
 
-  
+
+    // logic for the game:
+       if (totalNumber > numTarget) {
+           console.log("loss");
+       } else if (totalNumber == numTarget) {
+           console.log("win");
+       }
