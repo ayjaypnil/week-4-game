@@ -5,7 +5,7 @@ h1{
 
 }
 body{
-    background: url("/Users/AnilJayPatel/Desktop/Files/P/BootCamp/Week2/week-4-game/assets/images/unicorn.jpeg");
+    background: url("assets/images/unicorn.jpeg");
 }
 img{
     height: 75px;
