@@ -1,25 +1,60 @@
 h1{
-    color: purple;
+    color: black;
     font-weight: bolder;
-    padding: 15px;
     font-size: 35px;
-    margin-top: 15px;
-    margin-left: 240px;
-}
 
+}
 body{
     background: url("/Users/AnilJayPatel/Desktop/Files/P/BootCamp/Week2/week-4-game/assets/images/unicorn.jpeg");
 }
-
 img{
-    height: 50px;
-    width: 50px;
- 
+    height: 75px;
+    width: 75px;
+    margin: 25px;
+   
+}
+input{
+    height: 100px;
+    width: 175px;
+    color: black;
+    font-weight: bolder;
+}
+h2{
+    color: whitesmoke;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+#targetNumber, #totalNumber{
+    color: black;  
 }
 
-input{
-    height: 75px;
-    width: 125px;
+h1{
+    margin-top: 35px;
+    margin-bottom: 25px;
     color: purple;
-    font-weight: bolder;
+    
+}
+.jumbotron{
+   color: whitesmoke;
+}
+#reset{
+    margin: 15px;
+}
+p{
+    font-size: 20px;
+}
+#panelGems{
+    margin-top: 100px;
+}
+#targetNumber{
+    color: whitesmoke;
+}
+#totalNumber{
+   color: whitesmoke;
+}
+#wins {
+    color: whitesmoke;
+}
+#losses {
+    color: whitesmoke;
 }

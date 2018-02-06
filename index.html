@@ -3,33 +3,52 @@
     <head>
         <title>Crystal Game</title>
             <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+             <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
             <link rel="stylesheet" type="text/css" href="assets/css/style.css">  
             
     </head>
 
     <body>
-        <h1><center>Unikorn Crystal Game</center></h1>
-            <h2>Target Number: <span id="targetNumber"></span></h2>
+
+        <center><div class="jumbotron">
+            <h1>Unikorn Crystal Game</h1>
+            <p>
+                Click Initialize To Start! Then, match your total number to the target number! Don't go over, or you will lose! Good Luck!!!
+            </p>
+            <p>
+                    <input id="reset" type="button" value="Initialize"></input>
+            </p>
+        </center></div>
         
-        <img id="redGem" src="assets/images/almandine-garnet.jpg">
-            <p><span id="redNumber"></span></p>
+            <div class="panel panel-default">
+                <div class="panel-body">
+                        <h2>Target Number: <span id="targetNumber"></span></h2>
+                        <h2>Total: <span id="totalNumber"></span></h2>
+                        <h2>Wins: <span id="wins"></span></h2>
+                        <h2>Losses: <span id="losses"></span></h2>
+             
+                </div>
+            </div>
 
-        <img id="whiteGem" src="assets/images/diamond.jpg">
-            <p><span id="whiteNumber"></span></p>
-
-        <img id="blueGem" src="assets/images/homepage-sapphire.jpg">
-            <p><span id="blueNumber"></span></p>
-
-        <img id="pinkGem" src="assets/images/pink_oval.jpg">
-            <p><span id="pinkNumber"></span></p>
-
-        <h2>Total: <span id="totalNumber"></span></h2>
-
-        <h3>Wins: <span id="wins"></span></h3>
-        <h3>Losses: <span id="losses"></span></h3>
+         
+          <div id="panelGems">
+                <center><div class="panel-body">
+                            <img id="redGem" src="assets/images/almandine-garnet.jpg">
+                            <!-- <p><span id="redNumber"></span></p> -->
+                            
+                            <img id="whiteGem" src="assets/images/diamond.jpg">
+                            <!-- <p><span id="whiteNumber"></span></p> -->
+                            
+                            <img id="blueGem" src="assets/images/homepage-sapphire.jpg">
+                            <!-- <p><span id="blueNumber"></span></p> -->
+                            
+                            <img id="pinkGem" src="assets/images/pink_oval.jpg">
+                            <!-- <p><span id="pinkNumber"></span></p> -->
+                </center></div>
+            </div>
        
-        <input id="reset" type="button" value="Play Again!">
-        <input id="reset" type="button" value="Initialize">
+        <center><input id="reset" type="button" value="Play Again!"></center>
+        
 
 
 
