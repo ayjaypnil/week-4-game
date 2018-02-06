@@ -5,10 +5,10 @@ var numWhite = 0;
 var numBlue = 0;
 var numPink = 0;
 var totalNumber = 0;
-var numRedRando = Math.floor(Math.random() * 25);
-var numWhiteRando = Math.floor(Math.random() * 25);
-var numBlueRando = Math.floor(Math.random() * 25);
-var numPinkRando = Math.floor(Math.random() * 25);
+var numRedRando = Math.floor(Math.random() * 15);
+var numWhiteRando = Math.floor(Math.random() * 15);
+var numBlueRando = Math.floor(Math.random() * 15);
+var numPinkRando = Math.floor(Math.random() * 15);
 
 
 
