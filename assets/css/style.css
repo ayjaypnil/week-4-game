@@ -5,7 +5,7 @@ h1{
 
 }
 body{
-    background: url("assets/images/unicorn.jpeg");
+    background: url("../images/unicorn.jpeg");
 }
 img{
     height: 75px;
