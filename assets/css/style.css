@@ -1,8 +1,25 @@
 h1{
-    color: blue;
+    color: purple;
+    font-weight: bolder;
+    padding: 15px;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-left: 240px;
+}
+
+body{
+    background: url("/Users/AnilJayPatel/Desktop/Files/P/BootCamp/Week2/week-4-game/assets/images/unicorn.jpeg");
 }
 
 img{
     height: 50px;
     width: 50px;
+ 
+}
+
+input{
+    height: 75px;
+    width: 125px;
+    color: purple;
+    font-weight: bolder;
 }
